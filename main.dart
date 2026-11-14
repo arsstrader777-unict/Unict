@@ -46,7 +46,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     try {
       // ВАЖНО: Если запускаешь локально, тут будет localhost.
       // Если в облаке, замени на URL твоего бэкенда.
-      final url = Uri.parse('http://127.0.0.1:8000/register');
+      final url = Uri.parse('https://unict-backend.onrender.com/register');
       
       final response = await http.post(
         url,
